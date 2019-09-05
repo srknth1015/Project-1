@@ -12,7 +12,7 @@ Example a channel can map all red balls ignoring all other color balls from the 
 Kernal is a matrix to identify that individual entities from the image for example round curved edgeg in thr above image.
 
 ## Why should we only (well mostly) use 3x3 Kernels?
-Basically 3x3 Kernal is used because using this 3x3 Kerels we can map surrounding features as left, right, top and bottom.
+Basically 3x3 Kernel is used because using this 3x3 Kernels we can map surroundings of a given pixel as left, right, top and bottom.
 
 ## How many times do we need to perform 3x3 convolution operation to reach 1x1 from 199x199 
 We need to perform 99 3x3 convolution operation to reach 1x1 from 199x199 and the calculations are as below.
